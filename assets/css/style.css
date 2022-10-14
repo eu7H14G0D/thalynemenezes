@@ -121,7 +121,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Header
+# Cabeçalho (Header)
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
@@ -164,7 +164,7 @@ h6 {
 }
 /* animação da logo */
 @keyframes logo_animation{
-  from {filter:brightness(100%)}
+  from {filter:brightness(105%)}
   from {filter:brightness(25%)}
 }
 
