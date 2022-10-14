@@ -1,5 +1,5 @@
 /*
-7H14G0D 83 98851-1306
+7H14G0D Whatsapp 83 98851-1306
 thiagobrunomenezesdacosta@gmail.com
 */
 
@@ -938,7 +938,7 @@ section {
 #contato .contato-address,
 #contato .contato-phone,
 #contato .contato-email {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 @media (min-width: 768px) {
@@ -946,7 +946,7 @@ section {
   #contato .contato-address,
   #contato .contato-phone,
   #contato .contato-email {
-    padding: 20px 0;
+    padding: 10px 0;
   }
 }
 
@@ -968,7 +968,7 @@ section {
 }
 
 #contato .email-form .error-message br+br {
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 #contato .email-form .sent-message {
@@ -1033,7 +1033,8 @@ section {
 }
 
 #contato .email-form button[type=submit]:hover {
-  background: #600094;
+  background: #9106dc;
+  color: rgb(0, 0, 0);
   /*background: #e0072f;*/
 }
 
