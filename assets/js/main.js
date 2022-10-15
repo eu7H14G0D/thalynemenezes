@@ -1,9 +1,4 @@
-/**
-* Template Name: Techie - v4.9.1
-* Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+/* thalynemenezes.com.br , by thiagonet.com */
 (function() {
   "use strict";
 

@@ -735,7 +735,7 @@ section {
   z-index: 100;
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
-
+/* Efeito de animação circular no play */
 .sobre .play-btn::before {
   content: "";
   position: absolute;
