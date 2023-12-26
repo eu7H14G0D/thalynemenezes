@@ -1,5 +1,5 @@
 /*
-7H14G0D Whatsapp 83 98851-1306
+7H14G0D Whatsapp 83 98180-3665
 thiagobrunomenezesdacosta@gmail.com
 */
 
@@ -12,12 +12,12 @@ body {
 }
 
 a {
-  color: #5846f9;
+  color: #2c2939;
   text-decoration: none;
 }
 
 a:hover {
-  color: #8577fb;
+  color: #2c2939;
   text-decoration: none;
 }
 
@@ -40,7 +40,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5846f9;
+  background: #2c2939;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -54,7 +54,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #7b27d8;
+  background: #2c2939;
   color: #fff;
 }
 
@@ -82,7 +82,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #5846f9;
+  border: 6px solid #2c2939;
   border-top-color: #e7e4fe;
   border-radius: 50%;
   width: 60px;
@@ -131,7 +131,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(80, 3, 147, 0.8);
+  background: rgba(44, 41, 57, 0.8);
   padding: 12px 0;
 }
 
@@ -299,7 +299,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #5846f9;
+  color: #2c2939;
 }
 
 .navbar .dropdown:hover>ul {
@@ -454,7 +454,7 @@ h6 {
 #principal {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/principal-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(44, 41, 57, 0.9) 0%, rgba(44, 41, 57, 0.9) 100%), url("../img/principal-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -495,7 +495,7 @@ h6 {
 
 #principal .btn-get-started:hover {
   background: #fff;
-  color: #5846f9;
+  color: #2c2939;
 }
 
 #principal .animated {
@@ -614,7 +614,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #5846f9;
+  background: #2c2939;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -892,6 +892,277 @@ section {
   }
 }
 
+/*---*/
+
+/*--------------------------------------------------------------
+# alunos
+--------------------------------------------------------------*/
+.alunos .container {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding-bottom: 15px;
+}
+
+.alunos .count-box {
+  padding: 60px 0;
+  width: 100%;
+}
+
+.alunos .count-box i {
+  display: block;
+  font-size: 48px;
+  color: #a1bdd1;
+  float: left;
+  line-height: 0;
+}
+
+.alunos .count-box span {
+  font-size: 28px;
+  line-height: 25px;
+  display: block;
+  font-weight: 700;
+  color: #365870;
+  margin-left: 60px;
+}
+
+.alunos .count-box p {
+  padding: 5px 0 0 0;
+  margin: 0 0 0 60px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #2e4b5e;
+}
+
+.alunos .count-box a {
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  color: #2e4b5e;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  transition: ease-in-out 0.3s;
+}
+
+.alunos .count-box a:hover {
+  color: #477392;
+}
+
+.alunos .content {
+  font-size: 15px;
+}
+
+.alunos .content h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #263d4d;
+}
+
+.alunos .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.alunos .content ul li {
+  padding-bottom: 10px;
+  padding-left: 28px;
+  position: relative;
+}
+
+.alunos .content ul i {
+  font-size: 24px;
+  color: #ff4a17;
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+
+.alunos .content p:last-child {
+  margin-bottom: 0;
+}
+
+.alunos .play-btn {
+  width: 94px;
+  height: 94px;
+  background: radial-gradient(#ff4a17 50%, rgba(255, 74, 23, 0.4) 52%);
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  left: calc(50% - 47px);
+  top: calc(50% - 47px);
+  overflow: hidden;
+}
+
+.alunos .play-btn::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 100;
+  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+/* Efeito de animação circular no play */
+.alunos .play-btn::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation: pulsate-btn 2s;
+  animation: pulsate-btn 2s;
+  -webkit-animation-direction: forwards;
+  animation-direction: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: steps;
+  animation-timing-function: steps;
+  opacity: 1;
+  border-radius: 50%;
+  border: 7px solid rgba(255, 74, 23, 0.7);
+  top: -13%;
+  left: -13%;
+  background: rgba(198, 16, 0, 0);
+}
+
+.alunos .play-btn:hover::after {
+  border-left: 15px solid #ff4a17;
+  transform: scale(20);
+}
+
+.alunos .play-btn:hover::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border: none;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 200;
+  -webkit-animation: none;
+  animation: none;
+  border-radius: 0;
+}
+
+@-webkit-keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+@keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+/*--------------------------------------------------------------
+# alunos Boxes
+--------------------------------------------------------------*/
+.alunos-boxes {
+  background: url("../img/sobre-boxes-bg.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 60px 0 30px 0;
+  position: relative;
+}
+
+.alunos-boxes::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.92);
+  z-index: 9;
+}
+
+.alunos-boxes .container,
+.alunos-boxes .container-fluid {
+  position: relative;
+  z-index: 10;
+}
+
+.alunos-boxes .card {
+  border-radius: 3px;
+  border: 0;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.alunos-boxes .card-icon {
+  text-align: center;
+  margin-top: -32px;
+}
+
+.alunos-boxes .card-icon i {
+  font-size: 32px;
+  color: #fff;
+  width: 64px;
+  height: 64px;
+  padding-top: 5px;
+  text-align: center;
+  background-color: #ff4a17;
+  border-radius: 4px;
+  text-align: center;
+  border: 4px solid #fff;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.alunos-boxes .card-body {
+  padding-top: 12px;
+}
+
+.alunos-boxes .card-title {
+  font-weight: 700;
+  text-align: center;
+}
+
+.alunos-boxes .card-title a {
+  color: #15222b;
+}
+
+.alunos-boxes .card-title a:hover {
+  color: #ff4a17;
+}
+
+.alunos-boxes .card-text {
+  color: #5e5e5e;
+}
+
+.alunos-boxes .card:hover .card-icon i {
+  background: #fff;
+  color: #ff4a17;
+}
+
+@media (max-width: 1024px) {
+  .alunos-boxes {
+    background-attachment: scroll;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Contato Section
@@ -910,7 +1181,7 @@ section {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #600094;
+  color: #2c2939;
   /*color: #f82249;*/
 }
 
@@ -933,7 +1204,7 @@ section {
 }
 
 #contato .contato-info a:hover {
-  color: #600094;
+  color: #2c2939;
   /*color: #f82249;*/
 }
 
@@ -962,7 +1233,7 @@ section {
 #contato .email-form .error-message {
   display: none;
   color: #fff;
-  background: #600094;
+  background: #2c2939;
   /*background: #ed3c0d;*/
   text-align: left;
   padding: 15px;
@@ -1011,7 +1282,7 @@ section {
 
 #contato .email-form input:focus,
 #contato .email-form textarea:focus {
-  border-color: #600094;
+  border-color: #2c2939;
   /*border-color: #f82249;*/
 }
 
@@ -1024,7 +1295,7 @@ section {
 }
 
 #contato .email-form button[type=submit] {
-  background: #600094;
+  background: #2c2939;
   /*background: #f82249;*/
   border: 0;
   padding: 10px 40px;
@@ -1035,7 +1306,7 @@ section {
 }
 
 #contato .email-form button[type=submit]:hover {
-  background: #9106dc;
+  background: #2c2939;
   color: rgb(0, 0, 0);
   /*background: #e0072f;*/
 }
@@ -1067,12 +1338,12 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/principal-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(44, 41, 57, 0.9) 0%, rgba(44, 41, 57, 0.9) 100%), url("../img/principal-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
 #footer .copyright-wrap {
-  border-top: 1px solid #8577fb;
+  border-top: 1px solid #2c2939;
 }
 
 #footer .credits {
